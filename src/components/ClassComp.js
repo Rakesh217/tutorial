@@ -12,7 +12,8 @@ export default class ClassComp extends Component{
         return(
             <div>
             <p>Parent</p>
-            <FuncComp name="Rakesh" car={this.recivedData}/>
+            {// <FuncComp name="Rakesh" car={this.recivedData}/>
+        }
             {this.state.car}
             </div>
         );

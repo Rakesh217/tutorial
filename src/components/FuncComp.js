@@ -10,7 +10,8 @@ export default function FuncComp(props){
         <div>
         <p>Child</p>
         {props.name}
-        <button onClick={sendData}>Click Here</button>
+        {//<button onClick={sendData}>Click Here</button>
+    }
         </div>
     )
 }
